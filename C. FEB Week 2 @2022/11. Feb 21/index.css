@@ -1,0 +1,97 @@
+body
+{
+    margin: 0px;
+    margin-top: 15px;
+}
+
+header
+{
+    background-color:#063037;
+    height:50px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header a
+{
+
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-left: 30px;
+}
+header a .dropdown-trigger
+{
+    cursor: pointer;
+}
+header .dropdown-trigger
+{
+    padding-top: 15px;
+}
+
+
+.main-div a
+{
+    cursor: pointer;
+    padding:10px;
+    border-right: 2px solid grey;
+    display: inline;
+
+}
+
+.dropdown a
+{
+    display: none;
+}
+
+.dropdown-content
+{
+    display: none;
+    
+}
+.dropdown-trigger:hover>.dropdown-content
+{
+    display: initial;
+}
+.dropdown-hover
+{
+    height: 250px;
+    width: 150px;
+    background-color: #063037;
+    margin-top: 15px;
+    
+}
+.dropdown-hover a
+{
+    display: block;
+}
+.dropdown-trigger:hover .second-level-dp-content
+{
+    display: none;
+    
+    
+}
+
+.second-level-dp:hover .second-level-dp-content
+{
+    position: absolute;
+}
+.second-level-dp-content
+{
+    display: none;
+}
+.second-level-dp:hover>.second-level-dp-content
+{
+    display: initial;
+}
+
+.second-level-hover
+{
+
+    display:block;
+    height: 200px;
+    width: 150px;
+    background-color: #063037;
+    margin-left: 160px;
+
+}

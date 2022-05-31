@@ -1,0 +1,94 @@
+body
+{
+   margin: 0px;
+   background-image: url('./images/loginbackground0000000.jpeg');
+   background-size: cover;
+}
+.main-div
+{
+    background-image: url('./images/login\ background11111.webp');
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin: 20px 150px 20px 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.login-div
+{
+    /* margin-left: 700px; */
+    position: relative;
+    left:695px;
+    top: 100px;
+    height: 500px;
+    width: 500px;
+    background-color: #121212;
+    opacity: 0.6;
+    border-radius: 20px;
+}
+
+section .form-div
+{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.form-div label
+{
+    color: d63333;
+    display: inline-block;
+    margin-top: 30px;
+}
+label~input
+{
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 300px;
+    height: 40px;
+    background-color:121212;
+    opacity: 0.9;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+}
+label~input:hover
+{
+    background-color: 1F8BB6;
+}
+/* .form-div [type="checkbox"]
+{
+    margin-left: -120px;
+    border: 1px solid black;
+    margin-top: 20px;
+    height: 30px;
+} */
+.form-div button
+{
+    width: 300px;
+    height: 40px;
+    background-color: 1F8BB6;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+.form-div p
+{
+    color: white;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.form-div p>a
+{
+    color: 1F8BB6;
+    font-weight: bolder;
+    font-size: large;
+}
+.form-div a
+{
+    margin-left: 13px;
+    color:B3BDC1;
+    text-decoration: underline;
+    font-size: larger;
+}

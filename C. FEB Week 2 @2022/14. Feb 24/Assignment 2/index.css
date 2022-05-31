@@ -1,0 +1,181 @@
+body
+{
+    margin: 0px;
+    background-image: url('./images/fb-home.jpg');
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: 100%;
+}
+.chatbox
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 460px;
+        width: 400px;
+        background-color:white;
+        position:sticky; 
+        left: 750px;
+        top:350px;
+        overflow-y: scroll;
+        border: 1px solid black; 
+    }
+header
+    {
+        position: sticky;
+        top: 0px;
+    }
+.header-chatbox
+    {
+        display: inline-block;
+        height: 30px;;
+        width: 400px;
+        border-bottom: 1px solid black;
+        background-color: ced4da;
+    }
+.header-chatbox>a
+    {
+        display: inline-block;
+        font-weight: bolder;
+        font-size: large;
+        position: relative;
+        left:10px;
+        bottom: 5px;
+    }
+.header-chatbox>a+img
+    {
+        margin-left: 28px;
+    }
+.header-chatbox>img
+    {
+        height: 20px;
+        width: 20px;
+        margin-left: 15px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+.header-content
+    {
+        height: 70px;
+        position: sticky;
+        top:0px;
+        padding-top: 5px;
+        background-color: white;
+        border-bottom: 1px solid white;
+    }
+.content>img
+    {
+        height: 10px;
+        /* margin-top: 10px; */
+        position: relative;
+        top:15px;
+        left: 5px;
+        
+    }
+.header-content span
+    {
+        color:6c757d;
+    }
+.header-content [href="#"]
+    {
+        text-decoration: none;
+        color: blue;
+        font-weight: bolder;
+        margin-left: 20px;
+        font-size: larger;
+        cursor: pointer;
+    }
+section
+    {
+        margin-top: -180px;
+    }
+.sender .date
+    {
+        display: inline-block;
+        margin-left: 120px;
+        color:6c757d;
+        font-weight: bolder;
+    }
+.sender span
+    {
+        display: block;
+        margin-left: 180px;
+        margin-top: 5px;
+        width:190px;
+        background-color: blue;
+        border-radius: 50px;
+        height: 30px;
+        padding: 10px 0px 0px 10px;
+        color:white;
+        font-weight: bolder;
+    }
+.recieved
+    {
+        display: block;
+    }
+.recieved a
+    {
+        display: inline-block;
+        margin-left: 120px;
+        margin-top: 30px;
+        color:6c757d;
+        font-weight: bolder;
+    }
+.recieved span
+    {
+        display: block;
+        margin-top: 5px;
+        width:190px;
+        margin-left: 45px;
+        background-color:6c757d;
+        border-radius: 50px;
+        height: 20px;
+        padding: 0px 0px 20px 32px;
+        color:black;
+        font-weight: bolder;
+    }
+.recieved  .image-user
+    {
+        display: inline-block;
+        height: 25px;
+        background-color: grey;
+        border-radius: 50%;
+        margin-left: -60px;
+        padding: 0px 3px 0px 0px;
+        
+    }
+.footer-div
+    {
+        height: 60px;
+        width: 400px;
+        border-top: 1px solid black;
+        position:sticky;
+        top: 0px;
+        margin-top: 10px;
+    }
+.footer-div p
+    {
+        margin-left: 10px;
+        color:grey;
+        font-weight: bolder;
+        font-size: large;
+    }
+.footer-image
+    {
+        display: inline-block;
+        margin-left: 5px;
+    }
+.footer-image img
+    {
+        height: 20px;
+        margin-top: 0px;
+        margin-left: 5px;
+        cursor:pointer;
+        
+    }
+.footer-image [src ="./images/like.png"]
+    {
+        margin-left: 170px;
+    }

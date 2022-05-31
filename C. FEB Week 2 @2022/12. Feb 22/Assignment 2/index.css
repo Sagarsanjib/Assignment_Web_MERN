@@ -1,0 +1,75 @@
+body
+{
+    background-color: rgb(67,131,195);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height:800px; 
+    width: 1300px; 
+}
+
+header > h1
+{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    margin-left: 200px;
+}
+.your-score-div
+{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.star img
+{
+    height: 30px;
+    margin-left: 10px;
+}
+.three-image
+{
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.three-image span img
+{
+    height:100px;
+    padding-left: 50px;
+    
+}
+.three-image p
+{
+    color:white;
+    margin-left: 220px;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.tick img
+{
+    display: inline-block;
+    height: 170px;
+    
+}
+
+.tick p
+{
+    color:white;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.tick
+{
+    display: inline-block;
+    margin-top: -230px; 
+    margin-left:1020px
+}
+.opponent-score-div
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
