@@ -1,0 +1,64 @@
+body
+{
+    
+    background: linear-gradient(90deg, rgb(117, 114, 172) 0%, rgb(154, 58, 243) 9%, rgb(153, 224, 238) 100%); 
+    cursor: pointer;
+}
+
+/*.container-image1 img, .container-image2 img, .container-image3 img, .container-image4 img, .container-image5 img, .container-image6 img, .container-image7 img, .container-image8 img
+{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+}
+*/
+
+
+
+
+
+.fav-img
+{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.main_container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.d-none
+{
+    display: none;
+}
+
+*/
+
+.subdiv-img1, .subdiv-img2, .subdiv-img3, .subdiv-img4, .subdiv-img5, .subdiv-img6, .subdiv-img7, .subdiv-img8
+{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,112,1) 9%, rgba(0,212,255,1) 100%);
+    margin: 0px;
+    cursor: pointer;
+}
+
+
+.cross
+{
+    position: relative;
+    top:-690px;
+    left: 340px;
+    background:white;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: larger;
+    height: 10vh;
+}
