@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+        <head>
+            <title>Pop-Up</title>
+            <link rel="stylesheet" href="./index.css"/>
+            <link rel="icon" href="./images/ok.png" >
+        </head>
+
+    <body class="main-body">
+
+        <input type="checkbox" class="c_box" id="show" onclick="pop_up()" style="display:block" />
+        
+        <p id="show1" class="para" style="display:block">
+            Slide Right To Show Pop-Up
+        </p>
+
+        <div class="main-container" id="parent-container" style="display: none;" >
+            
+            <div class="pop-up">
+                <header>
+
+                </header>
+
+                <div class="content">
+
+                    <content>
+                        <img src="./images/now.png"/>
+                        <h2 class="align-center">
+                        Get Premimum
+                        </h2>
+                        <p class="align-center">
+                            Get access to all your products<span>for a year</span>
+                        </p>
+
+                    </content>
+
+                </div>
+
+                <footer>
+
+                    <button onclick="hidepopup()"; id="press">
+                        Close
+                    </button>
+
+                </footer>
+            </div>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>

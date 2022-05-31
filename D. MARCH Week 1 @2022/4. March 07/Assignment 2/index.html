@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>
+                Instagram
+        </title>
+
+        <link rel="icon" href="./images/instagram-logo.png" />
+        <link rel="stylesheet" href="./index.css" />
+
+        <!--<link rel="stylesheet" href="./index.css" /> -->
+    </head>
+
+
+    <body>
+        
+        <!-- ---------------------------1ST REGION--------------------------->
+
+        <div class="home-page" id="parent-container">
+
+            <!-- top session-->
+
+            <div class="top-section-content">
+
+                <div class="time-date-section">
+
+                    <span class="device-time">
+                            10:50 PM
+
+                    </span>
+
+                    <span class="device-line">
+
+                    </span>
+
+                    <img src="./images/battery.png" />
+
+                </div> 
+
+
+                <div class="camera-title-section">
+
+                    <img src="./images/camera.png" class="camera" />
+
+                    <span class="title-text">
+                            Instagram
+                    </span>
+
+                    <img src="./images/send.png" class="send"/>
+
+                </div>
+
+
+                <div class="stories-section" style="border-bottom: 1px solid darkgrey;">
+
+                    <p>
+                        Stories
+                    </p>
+
+                    <img src="./images/women2.png" class="image-1 " style="margin-left: 10px;"/>
+                    <img src="./images/man1.png" />
+                    <img src="./images/king.png" />
+                    <img src="./images/man.png" />
+                    <img src="./images/women.png" />
+
+                </div>
+
+            </div>
+
+
+            <!-- middle section-->
+
+            <div class="middle-section-content" >
+
+                <div class="user">
+
+                    <img src="./images/man3.png"/>
+
+                    <a>Sagar Sanjib Sahu</a>
+
+                </div>
+
+                <div class="collection-posts-images">
+
+                    <img src="./images/front-img11111.jpg"/>
+
+                    <div class="like-comment-share">
+
+                        <a>
+                            <img src="./images/heart.png" onclick="like()"/>
+                        </a>
+
+                        <a>
+                            <img src="./images/comment.png"/>
+                        </a>
+
+                        <a>
+                            <img src="./images/send.png" />
+                        </a>
+
+                        <a>
+                            <img src="./images/instagram-save.png" style="position: relative; left: 8px;"/>
+                        </a>
+
+                        <p id="please-like">
+                            0 Likes
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- bottom session-->
+
+            <div class="bottom-section-content">
+
+                <img src="./images/home.png" id="image01" style="display: inline-block; margin-left: -40px;" onclick="show_home()" />
+                <img src="./images/search.png" id="image02" onclick="show_search()"/>
+                <img src="./images/heart.png" id="image03" onclick="show_like()"/>
+                <img src="./images/user3.png" id="image04"  style="display: inline-block; margin-right: 30px;" onclick="show_user()" />
+            </div>
+
+
+        </div>
+
+
+
+
+        <!-- ---------------------------2ND REGION--------------------------->
+
+        <div class="search-page" id="search-container" style="display: none;" >
+
+            <div class="time-date-section">
+
+                <span class="device-time">
+                        10:50 PM
+
+                </span>
+
+                <span class="device-line">
+
+                </span>
+
+                <img src="./images/battery.png" />
+
+            </div> 
+            
+        
+            <div class="search-bar"> 
+
+                <a class="search-images">
+                      <img src="./images/search.png" />
+                </a>
+
+                <input type="simple-text" placeholder="Search here" />
+
+                <span class="Explore-the-image">
+
+                    <img src="./images/front-img.webp"/>
+                    <img src="./images/search-type3.jpeg"/>
+                    <img src="./images/search-type6.webp" />
+                    <img src="./images/search-type4.jpeg"/>
+                </span>
+
+                <div class="bottom-section-content" >
+
+                    <img src="./images/home.png" id="image01" style="display: inline-block; margin-left: -40px;" onclick="show_home()" />
+                    <img src="./images/search.png" id="image02" onclick="show_search()"/>
+                    <img src="./images/heart.png" id="image03" onclick="show_like()"/>
+                    <img src="./images/user3.png" id="image04"  style="display: inline-block; margin-right: 30px;" onclick="show_user()" />
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!-- ---------------------------3RD REGION--------------------------->
+
+        <div class="activity-page" id="activity-container" style="display: none;">
+
+            <div class="time-date-section">
+
+                <span class="device-time">
+                        10:50 PM
+
+                </span>
+
+                <span class="device-line">
+
+                </span>
+
+                <img src="./images/battery.png" />
+
+            </div> 
+
+            <div class="likes-the-post">
+
+                <span class="likes-1">
+
+                    <img src="./images/women2.png"/>
+                    <a>Apna College Likes your photo.</a>
+                    <img src="./images/search-type4.jpeg" style="margin-left: 30px;" />
+
+                </span>
+
+                <span class="likes-1">
+                    
+                    <img src="./images/man1.png"/>
+                    <a>Tech-Guftugu Likes your photo.</a>
+                    <img src="./images/search-type5.jpeg " style="margin-left: 30px;" />
+
+                </span>
+
+                <span class="likes-1">
+                    
+                    <img src="./images/king.png"/>
+                    <a>Divyanshu Likes your photo.</a>
+                    <img src="./images/search-type6.webp" style="margin-left: 30px;" />
+
+                </span>
+
+            </div>
+
+            <div class="bottom-section-content"style="padding-top: 20px; position: relative;top: 270px;" >
+
+                <img src="./images/home.png" id="image01" style="display: inline-block; margin-left: -40px;" onclick="show_home()" />
+                <img src="./images/search.png" id="image02" onclick="show_search()"/>
+                <img src="./images/heart.png" id="image03" onclick="show_like()"/>
+                <img src="./images/user3.png" id="image04"  style="display: inline-block; margin-right: 30px;" onclick="show_user()" />
+            </div>
+
+
+        </div>
+
+
+
+        <!-- ---------------------------4TH REGION--------------------------->
+
+        <div class="profile-page" id="profile-container"  style="display: none;" >
+
+            <div class="time-date-section">
+
+                <span class="device-time">
+                        10:50 PM
+
+                </span>
+
+                <span class="device-line">
+
+                </span>
+
+                <img src="./images/battery.png" />
+
+            </div> 
+
+            <div class="profile-user">
+                <span>
+                        <img src="./images/user1.png" />
+                </span>
+
+                <span class="all-information">
+
+                    <a>
+                        60
+                    </a>
+
+                    <p>
+                        POSTS
+                    </p>
+
+                    <a>
+                        552
+                    </a>
+
+                    <p>
+                        FOLLOWERS
+                    </p>
+
+                    <a>
+                        90
+                    </a>
+
+                    <p>
+                        FOLLOWING
+                    </p>
+
+                    <button>
+                        EDIT PROFILE 
+                    </button>
+                </span>
+
+                <div class="user-profile-images">
+
+                    <div class="image-1">
+                        <img src="./images/post1.jpeg"/>
+                        <img src="./images/post 2.jpeg" />
+                        <img src="./images/post3.jpeg" />
+                        <img src="./images/post4.jpeg" />
+                        <img src="./images/post5.jpeg" />
+                        <img src="./images/post6.jpeg"/>
+                    </div>
+
+                    <div class="bottom-section-content" style="padding-top: 20px; position: relative;top: -50px; left: -20px;">
+
+                        <img src="./images/home.png" id="image01" style="display: inline-block; margin-left: -40px;" onclick="show_home()" />
+                        <img src="./images/search.png" id="image02" onclick="show_search()"/>
+                        <img src="./images/heart.png" id="image03" onclick="show_like()"/>
+                        <img src="./images/user3.png" id="image04"  style="display: inline-block; margin-right: 30px;" onclick="show_user()" />
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+       <script src="./index.js"></script> 
+    </body>
+</html>

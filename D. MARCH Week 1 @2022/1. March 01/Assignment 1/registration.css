@@ -1,0 +1,109 @@
+body
+{
+    margin: 0px;
+    background-color:f1c0e8;
+    opacity: 0.8;
+}
+.parent-div .reg
+{
+    display: inline-block;
+    text-align: center;
+    margin-left: 1000px;
+    margin-top:-750px ;
+    color:fbf8cc;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: 264653;
+    animation: 5s infinite alternate reg_animation;
+    
+}
+@keyframes reg_animation {
+    from {
+        margin-left: 600px;
+    }
+    to {
+        margin-left: 1300px;
+    }
+}
+.parent-div .form-div
+{
+    height: 800px;
+    width: 800px;
+    display: inline-block;
+    margin-left: 400px;
+    background-color: e8e8e4;
+    opacity: 0.8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+form label
+{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 50px;
+    color:590d22;
+}
+form input
+{
+    display:block;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+form [type="radio"]
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+[placeholder="Enter your full-name"],[placeholder="Enter your Email"],[placeholder="Enter your number"],[placeholder="Enter your DOB"],[placeholder="Enter your password"],[placeholder="Enter your password again"]
+{
+    height: 40px;
+    width: 650px;
+    border-radius: 100px;
+    font-size: large;
+    border-bottom: 5px solid;
+    border-bottom-color:  f72585;
+    background-color: eae2b7;
+    color:023047;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.form-div button
+{
+    width: 650px;
+    height: 40px;
+    background-color: 6d597a;
+    color:fdffb6;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 45px;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+.form-div p
+{
+    margin-left: 10px;
+    color:black;
+    font-size: large;
+    font-weight: bolder;
+}
+.form-div p a
+{
+    color: 1F8BB6;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 10px;
+}
+#password_result
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left:300px;
+}

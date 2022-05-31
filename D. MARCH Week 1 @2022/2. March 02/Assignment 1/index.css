@@ -1,0 +1,146 @@
+body
+    {
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: #ede0d4;
+    }
+body div
+    {
+        display:inline;
+        background-color: white;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 20px;
+    }
+.first-div
+    {
+        height: 580px;
+        width:  330px;
+        position: fixed;
+        top: 70px;
+        left: 60px;
+        background-color: white;
+        
+    }
+.first-div a
+    {
+        font-size: larger;
+        font-weight: bolder;
+        cursor: pointer;
+        margin-left: 5px;
+        display: inline-block;
+        margin-top: 10px;
+        background-color: #ddb892;
+        border-radius: 10px;
+        width: 70px;
+        text-align: center;
+    }
+.first-div img
+    {
+        height: 550px;
+        width: 330px;
+        
+    }
+.second-div
+    {
+        height: 380px;
+        width:350px;
+        position: fixed;
+        left:450px;
+        background-image: url("./images/darkroad.webp");
+        background-size: cover;
+        opacity: 0.8;
+        
+    }
+.second-div > img
+    {
+        height: 90px;
+        width: 200px;
+        position: relative;
+        left: 80px;
+    }
+.second-div > h2
+    {
+        margin-left: 150px;
+        /*margin-top: 100px;*/
+        color: white;
+        font-size: xx-large;
+    }
+.second-div h2+a
+    {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+
+    }
+.second-div .small-text
+    {
+    display: inline-block;
+    color:white;
+    margin-left: 80px;
+    padding-top:20px;
+    font-size: larger;
+    }
+.third-div
+    {
+        height: 300px;
+        width: 800px;
+        position: fixed;
+        top: 420px;
+        left: 450px;
+        background-image: url("./images/blob\ 101.jpg");
+        
+    }
+.third-div h1
+    {
+        color: #4e046b;
+        margin-left: 50px;
+    }
+.third-div .image
+    {
+        float: right;
+        
+    }
+.third-div .button1
+    {
+        border: none;
+        height: 50px;
+        margin-left: 50px;
+        font-weight: bolder;
+        background-color: #56cfe1;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+.third-div .button1+button
+    {
+        border:none;
+        margin-left: 10px;
+        font-weight: bolder;
+        color: #56cfe1;
+        background-color: transparent;
+        font-size: medium;
+        cursor: pointer;
+    }
+.image > img
+    {
+        height: 300px;
+    }
+.fourth-div
+    {
+        height: 380px;
+        width:350px;
+        position: fixed;
+        left:950px;
+        background: rgb(238,174,202);
+        background: linear-gradient(0deg, rgb(126, 73, 96) 0%, rgb(150, 107, 218) 100%);
+    }
+.fourth-div>img
+    {
+        height: 300px;
+        width: 250px;
+        display: inline-block;
+        padding: 30px 10px 20px 50px;
+    }

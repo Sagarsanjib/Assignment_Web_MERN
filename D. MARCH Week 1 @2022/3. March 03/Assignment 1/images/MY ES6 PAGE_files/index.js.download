@@ -1,0 +1,10 @@
+//var detail = "Sagar";
+const detail = "Sagar";
+
+function show_myname()
+
+    {
+
+        var element1 = document.getElementById("output");
+        element1.innerText = detail;
+    }

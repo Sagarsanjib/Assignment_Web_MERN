@@ -1,0 +1,42 @@
+
+.main 
+    {
+        margin-top: 10px;
+    }
+.main1 div span img
+    {
+        display: inline-block;
+        width:350px;
+        height:200px;
+        margin-top: 50px;
+    
+    }
+
+.main1 div
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 50px;
+        column-gap: 20px;
+    }
+.main1 div button
+    {
+        height: 25px;
+        position: relative;
+        left:-380px;
+        top:260px;
+        border:none;
+        background: transparent;
+    }
+.main1 div button img 
+    {
+        height: 25px;
+    }
+.main1 div a
+    {
+        display: inline-block;
+        position: relative;
+        left:-400px;
+        top:265px;
+    }

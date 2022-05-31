@@ -1,0 +1,52 @@
+body
+{
+    margin:0px;
+}
+h3
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+input
+{
+    position: relative;
+    margin-top: 50px;
+    left:450px;
+    display: inline-block;
+    width: 300px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    height: 40px;
+    background-color: #cf514f;
+    text-align: center;
+}
+[placeholder="Enter second number"]
+{
+    margin-left: 100px;
+}
+button
+{
+    display: block;
+    text-transform: uppercase;
+}
+button
+{
+    display: block;
+    margin-left: 700px;
+    margin-top: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: skyblue;
+}
+span
+{
+    display: block;
+    font-weight: bolder;
+    font-size: larger;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left:750px;
+}
