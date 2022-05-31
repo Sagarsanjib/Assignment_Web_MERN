@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+   
+    <title>College Admission Form</title>
+</head>
+<body>
+    <h2>
+        This is College Admission Form.
+    </h2>
+    <form action="#">
+        <input type="text" placeholder="Enter your first name here" name="nm" size="40" pattern="[a-zA-Z ]+" required/>
+        &nbsp;
+        <input type="text" placeholder="Enter your middle name here(if any)" name="nm1" size="40" pattern="[a-zA-z]+"/>
+        &nbsp;
+        <input type ="text" placeholder="Enter your last name here" name="nm2" size="40" pattern="[a-ZA-z]+" required/>
+        <br>
+        <br>
+        <input type="tel" placeholder="Enter your mobile number" name="phn" size="40" pattern="[6-9]{1}[0-9]{9}" maxlength="10" required>
+        <br>
+        <br>
+        <input type="email" placeholder="Enter your email" name="email"pattern="[a-zA-z]+(|[0-9])+@gmail\.com" size="40" required/>
+        <br>
+        <br>
+        <input type="date" placeholder="Enter your DOB" name="dob" size="40" />
+        <br>
+        <br>
+        <input type="number" placeholder="Enter your 10th percentage" name="per10" min="0" max="100" step="0.01" />
+        <br>
+        <br>
+        <input type="number" placeholder="Enter your 12th percentage" name="per12" min="0" max="100" step="0.01"/>
+        <br>
+        <h4>Select your Gender</h4>
+        Male<input type="radio"  name="gen" required/>
+        Female<input type="radio" name="gen"/>
+        Other<input type="radio" name="gen"/>
+        <br>
+        <h4>Select your Course</h4>
+        <select name="course" required>
+            <option disabled selected>
+                Select your course
+            </option>
+            <option value="1">
+                B.Tech
+            </option>
+            <option value="2">
+                BCA
+            </option>
+            <option value="3">
+                BSC
+            </option>
+            <option value="4">
+                B.Pharma
+            </option>
+            <option value="5">
+                M.Tech
+            </option>
+            <option value="6">
+                MCA
+            </option>
+            <option value="7">
+                MSC
+            </option>
+
+        </select>
+        <br>
+        <br>
+        <textarea rows="5" cols="30" placeholder="Please enter your address here" style="resize: none;"></textarea>
+        <br>
+        <br>
+     
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset"/>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,190 @@
+#main
+{
+   float: left;
+}
+#main1
+{
+    float:left;
+    margin-top:10px;
+}
+#main2
+{
+    float: left;
+    margin-left:30px;
+}
+#image
+{
+    
+    height:35px;
+    margin-left: 20px;
+    margin-top:10px;
+    width:20px;
+  
+
+}
+#image1
+{
+   
+    height:60px;
+    margin-left: 25px;
+    width:100px;
+  
+}
+
+
+
+#search
+{
+    margin-top:10px;
+    margin-left: 100px;
+    height: 37px;
+    width:560px;
+    border-style: double;
+    border-right: none;
+}
+[placeholder="Search"]
+{
+    padding-left: 15px;
+    font-size:medium;
+}
+#search-bt
+{
+
+    height:19px;
+    width:20px;
+}
+#bt
+{
+    
+    height:41px;
+    width:50px;
+    margin-left:-50px;
+    background-color: transparent;
+}
+#imv
+{
+
+    height:20px;
+    width:20px;
+}
+#voice
+{
+    height: 40px;
+    width:50px;
+    margin-top:10px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border-style: double;
+    background-color: transparent;
+    
+}
+#video
+{
+    margin-left: 250px;
+    width: 40px;
+    height: 30px;
+}
+#grid
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+#bell
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+#su
+{
+    width:100px;
+    height:40px;
+    margin: 5px;
+    margin-left:20px ;
+    background-color: white;
+    color:darkblue;
+    border-color: blue;
+    border-width: 0.5px;
+    text-decoration: double;
+    font-weight: bold;
+}
+#sign-in
+{
+    padding-right: 5px;
+    height: 15px;
+    width: 15px;    
+}
+#sec
+{
+    float: left;
+    margin-top:100px;
+    margin-left:150px;
+    text-decoration: none;
+}
+#content
+{
+    
+    width: 200px;
+    margin-top: 20px;
+}
+#element
+{
+    padding-left:50px;
+    padding-top: 30px;
+    width: 400px;
+    height: 200px;
+
+}
+#yt-text
+{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+#menu
+{
+    float: left;
+    margin-left:-10px;
+    margin-top: -300px;
+}
+#td
+{
+    border-top:3px;
+}
+#bt-menu
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:whitesmoke;
+    width:100px;
+    height: 40px;
+    font-weight: bold;
+}
+#table-data
+{
+    padding-left: 40px;
+}
+#menu1
+{
+    margin-right:1500px;
+}
+#all
+{
+    padding-top:30px;
+}
+#sub
+{
+    margin-left:20px;
+    font-size: larger;
+    font-weight: bolder;
+    border-spacing:15px;
+    text-align: left;
+   
+}
+#sub-image
+{
+    padding-bottom: 25px;
+}
